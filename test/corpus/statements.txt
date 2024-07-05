@@ -1,0 +1,575 @@
+================================================================================
+block
+================================================================================
+
+_ :: () => {
+    // block
+    {
+        _ : i32;
+        _ :=  42;
+        _ :: 42;
+        _ = false;
+        {
+            ;
+        }
+    }
+    ;
+    return true;
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (comment)
+      (block
+        (variable_declaration
+          (identifier)
+          (signed_int_t))
+        (variable_definition
+          (identifier)
+          (integer_literal))
+        (constant_definition
+          (identifier)
+          (integer_literal))
+        (assignment
+          (identifier)
+          (boolean_literal
+            (false)))
+        (block
+          (empty_statement)))
+      (empty_statement)
+      (return_statement
+        (boolean_literal
+          (true))))))
+
+================================================================================
+access
+================================================================================
+
+_ :: () => {
+    object.property;
+    object.subobject.property;
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (access
+        (identifier)
+        (identifier))
+      (access
+        (identifier)
+        (access
+          (identifier)
+          (identifier))))))
+
+================================================================================
+call
+================================================================================
+
+_ :: () => {
+    fn();
+    object.fn();
+    fn(42, "text");
+    object.fn(42, "text");
+    fn(i: 42, s: "text");
+    object.fn(i: 42, s: "text");
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (call
+        (identifier))
+      (access
+        (identifier)
+        (call
+          (identifier)))
+      (call
+        (identifier)
+        (argument
+          (integer_literal))
+        (argument
+          (string_literal
+            (string_literal_fragment))))
+      (access
+        (identifier)
+        (call
+          (identifier)
+          (argument
+            (integer_literal))
+          (argument
+            (string_literal
+              (string_literal_fragment)))))
+      (call
+        (identifier)
+        (argument
+          (identifier)
+          (integer_literal))
+        (argument
+          (identifier)
+          (string_literal
+            (string_literal_fragment))))
+      (access
+        (identifier)
+        (call
+          (identifier)
+          (argument
+            (identifier)
+            (integer_literal))
+          (argument
+            (identifier)
+            (string_literal
+              (string_literal_fragment))))))))
+
+================================================================================
+if
+================================================================================
+
+_ :: () => {
+    if b := false; b {
+    } else if b :: true; b {
+    } else if b : bool := false; b {
+    } else if b : bool :: true; b {
+    } else if b1 := false, b2 := true; cond(b1, b2) {
+    } else {
+    }
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (if_statement
+        (parameter
+          (identifier)
+          (boolean_literal
+            (false)))
+        (identifier)
+        (block)
+        (if_statement
+          (parameter
+            (identifier)
+            (boolean_literal
+              (true)))
+          (identifier)
+          (block)
+          (if_statement
+            (parameter
+              (identifier)
+              (bool_t)
+              (boolean_literal
+                (false)))
+            (identifier)
+            (block)
+            (if_statement
+              (parameter
+                (identifier)
+                (bool_t)
+                (boolean_literal
+                  (true)))
+              (identifier)
+              (block)
+              (if_statement
+                (parameter
+                  (identifier)
+                  (boolean_literal
+                    (false)))
+                (parameter
+                  (identifier)
+                  (boolean_literal
+                    (true)))
+                (call
+                  (identifier)
+                  (argument
+                    (identifier))
+                  (argument
+                    (identifier)))
+                (block)
+                (block)))))))))
+
+================================================================================
+while
+================================================================================
+
+_ :: () => {
+    // classic
+    while true {}
+
+    // for-like
+    while i := 0, sz :: 10; less(i, sz) {
+        defer inc(i);
+        consume(i);
+    }
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (comment)
+      (while_statement
+        (boolean_literal
+          (true))
+        (block))
+      (comment)
+      (while_statement
+        (parameter
+          (identifier)
+          (integer_literal))
+        (parameter
+          (identifier)
+          (integer_literal))
+        (call
+          (identifier)
+          (argument
+            (identifier))
+          (argument
+            (identifier)))
+        (block
+          (defer_statement
+            (call
+              (identifier)
+              (argument
+                (identifier))))
+          (call
+            (identifier)
+            (argument
+              (identifier))))))))
+
+================================================================================
+for
+================================================================================
+
+_ :: () => {
+    // while-like
+    for true {}
+
+    // classic
+    for i := 0; less(i, 10); inc(i) {
+        consume(i);
+    }
+
+    // for-like while
+    for i := 0; less(i, 10) {
+        defer inc(i);
+        consume(i);
+    }
+
+    i := 0;
+    for ; less(i, 10); inc(i) {
+        consume(i);
+    }
+
+    for less(i, 10) {
+        defer inc(i);
+        consume(i);
+    }
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (comment)
+      (for_statement
+        (boolean_literal
+          (true))
+        (block))
+      (comment)
+      (for_statement
+        (parameter
+          (identifier)
+          (integer_literal))
+        (call
+          (identifier)
+          (argument
+            (identifier))
+          (argument
+            (integer_literal)))
+        (call
+          (identifier)
+          (argument
+            (identifier)))
+        (block
+          (call
+            (identifier)
+            (argument
+              (identifier)))))
+      (comment)
+      (for_statement
+        (parameter
+          (identifier)
+          (integer_literal))
+        (call
+          (identifier)
+          (argument
+            (identifier))
+          (argument
+            (integer_literal)))
+        (block
+          (defer_statement
+            (call
+              (identifier)
+              (argument
+                (identifier))))
+          (call
+            (identifier)
+            (argument
+              (identifier)))))
+      (variable_definition
+        (identifier)
+        (integer_literal))
+      (for_statement
+        (call
+          (identifier)
+          (argument
+            (identifier))
+          (argument
+            (integer_literal)))
+        (call
+          (identifier)
+          (argument
+            (identifier)))
+        (block
+          (call
+            (identifier)
+            (argument
+              (identifier)))))
+      (for_statement
+        (call
+          (identifier)
+          (argument
+            (identifier))
+          (argument
+            (integer_literal)))
+        (block
+          (defer_statement
+            (call
+              (identifier)
+              (argument
+                (identifier))))
+          (call
+            (identifier)
+            (argument
+              (identifier))))))))
+
+================================================================================
+foreach
+================================================================================
+
+_ :: () => {
+    foreach i in range(10) {
+        consume(i);
+    }
+
+    foreach u: u32 in range(10) {
+        consume(u);
+    }
+
+    foreach k: i32, v: string in init($[i32: string]) {
+        consume(k, v);
+    }
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (foreach_statement
+        (iterator
+          (identifier))
+        (call
+          (identifier)
+          (argument
+            (integer_literal)))
+        (block
+          (call
+            (identifier)
+            (argument
+              (identifier)))))
+      (foreach_statement
+        (iterator
+          (identifier)
+          (unsigned_int_t))
+        (call
+          (identifier)
+          (argument
+            (integer_literal)))
+        (block
+          (call
+            (identifier)
+            (argument
+              (identifier)))))
+      (foreach_statement
+        (iterator
+          (identifier)
+          (signed_int_t))
+        (iterator
+          (identifier)
+          (string_t))
+        (call
+          (identifier)
+          (argument
+            (map_t
+              (signed_int_t)
+              (string_t))))
+        (block
+          (call
+            (identifier)
+            (argument
+              (identifier))
+            (argument
+              (identifier))))))))
+
+================================================================================
+worker example
+================================================================================
+
+_ :: () => {
+    wp := get_worker_pool();
+    defer wp.cleanup();
+    while w := wp.get_worker(); w.is_working() {
+        if quit := w.work(); quit {
+            break;
+        } else {
+            continue;
+        }
+    }
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (variable_definition
+        (identifier)
+        (call
+          (identifier)))
+      (defer_statement
+        (access
+          (identifier)
+          (call
+            (identifier))))
+      (while_statement
+        (parameter
+          (identifier)
+          (access
+            (identifier)
+            (call
+              (identifier))))
+        (access
+          (identifier)
+          (call
+            (identifier)))
+        (block
+          (if_statement
+            (parameter
+              (identifier)
+              (access
+                (identifier)
+                (call
+                  (identifier))))
+            (identifier)
+            (block
+              (break_statement))
+            (block
+              (continue_statement))))))))
+
+================================================================================
+contracts
+================================================================================
+
+_ :: (i: i32) => {
+    expects calc -> bool { i > 8 and i <= 16 };
+    j := calc { i++ };
+    assert calc { j < i };
+    r :: calc { i - j };
+    ensures calc { r == 1 };
+    return r;
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (parameter
+      (identifier)
+      (signed_int_t))
+    (block
+      (expects_statement
+        (mathexpr
+          (bool_t)))
+      (variable_definition
+        (identifier)
+        (mathexpr))
+      (assert_statement
+        (mathexpr))
+      (constant_definition
+        (identifier)
+        (mathexpr))
+      (ensures_statement
+        (mathexpr))
+      (return_statement
+        (identifier)))))
+
+================================================================================
+mathexpr
+================================================================================
+
+_ :: () => {
+    i := 0;
+    
+    j := calc { i++ };
+    assert calc -> bool { j > i };
+    
+    &(i, j) = $(1, 2);
+    assert calc -> bool { i == 1 and j == 2 };
+    
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (variable_definition
+        (identifier)
+        (integer_literal))
+      (variable_definition
+        (identifier)
+        (mathexpr))
+      (assert_statement
+        (mathexpr
+          (bool_t)))
+      (assignment
+        (reference_operator
+          (identifier)
+          (identifier))
+        (list
+          (integer_literal)
+          (integer_literal)))
+      (assert_statement
+        (mathexpr
+          (bool_t))))))

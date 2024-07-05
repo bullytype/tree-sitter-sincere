@@ -1,0 +1,99 @@
+================================================================================
+#load
+================================================================================
+
+#load impl.sc;
+#load impl.submodule.sc;
+#load impl.sub.module.sc;
+#load .impl.sc;
+#load .impl.submodule.sc;
+#load .impl.sub.module.sc;
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (load_statement
+    (sc_dot_path))
+  (load_statement
+    (sc_dot_path))
+  (load_statement
+    (sc_dot_path))
+  (load_statement
+    (sc_dot_path))
+  (load_statement
+    (sc_dot_path))
+  (load_statement
+    (sc_dot_path)))
+
+================================================================================
+#import
+================================================================================
+
+#import pkg;
+#import sub.pkg;
+#import other.sub.pkg;
+#import pkg as p;
+#import sub.pkg as sp;
+#import other.sub.pkg as osp;
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (import_statement
+    (dot_path))
+  (import_statement
+    (dot_path))
+  (import_statement
+    (dot_path))
+  (import_statement
+    (dot_path)
+    (identifier))
+  (import_statement
+    (dot_path)
+    (identifier))
+  (import_statement
+    (dot_path)
+    (identifier)))
+
+================================================================================
+top level if
+================================================================================
+
+#if true {
+    #load A.sc;
+    #import A;
+} else #if b :: false; b {
+    #load B.sc;
+    #import B;
+} else {
+    #load C.sc;
+    #import C;
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (top_level_if_statement
+    (boolean_literal
+      (true))
+    (top_level_block
+      (load_statement
+        (sc_dot_path))
+      (import_statement
+        (dot_path)))
+    (top_level_if_statement
+      (parameter
+        (identifier)
+        (boolean_literal
+          (false)))
+      (identifier)
+      (top_level_block
+        (load_statement
+          (sc_dot_path))
+        (import_statement
+          (dot_path)))
+      (top_level_block
+        (load_statement
+          (sc_dot_path))
+        (import_statement
+          (dot_path))))))

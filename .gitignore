@@ -1,0 +1,6 @@
+tree-sitter.exe
+parser.lib
+parser.obj
+parser.exp
+node_modules
+*.wasm

@@ -1,0 +1,196 @@
+================================================================================
+struct
+================================================================================
+
+address :: struct {
+    city: string;
+    street: string;
+    house: u32;
+};
+
+person :: struct {
+    name: string;
+    address: address; 
+};
+
+test :: struct {
+    // variables
+    _ : i32;
+    _ : i32 := 42;
+    _ := 42;
+    // constants
+    _ : i32 :: 42;
+    _ :: 42;
+};
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (constant_definition
+    (identifier)
+    (struct_literal
+      (variable_declaration
+        (identifier)
+        (string_t))
+      (variable_declaration
+        (identifier)
+        (string_t))
+      (variable_declaration
+        (identifier)
+        (unsigned_int_t))))
+  (constant_definition
+    (identifier)
+    (struct_literal
+      (variable_declaration
+        (identifier)
+        (string_t))
+      (variable_declaration
+        (identifier)
+        (identifier))))
+  (constant_definition
+    (identifier)
+    (struct_literal
+      (comment)
+      (variable_declaration
+        (identifier)
+        (signed_int_t))
+      (variable_definition
+        (identifier)
+        (signed_int_t)
+        (integer_literal))
+      (variable_definition
+        (identifier)
+        (integer_literal))
+      (comment)
+      (constant_definition
+        (identifier)
+        (signed_int_t)
+        (integer_literal))
+      (constant_definition
+        (identifier)
+        (integer_literal)))))
+
+================================================================================
+enum
+================================================================================
+
+numbers :: enum {
+    one: 1;
+    two: 2;
+    three: 3;
+};
+
+strings :: enum {
+    normal: "sample";
+    raw: """\n\t\""";
+    code: `lang example`;
+    raw_code: ```lang
+        example
+        works
+    ```;
+    character: '\x0f';
+};
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (constant_definition
+    (identifier)
+    (enum_literal
+      (enum_value
+        (identifier)
+        (integer_literal))
+      (enum_value
+        (identifier)
+        (integer_literal))
+      (enum_value
+        (identifier)
+        (integer_literal))))
+  (constant_definition
+    (identifier)
+    (enum_literal
+      (enum_value
+        (identifier)
+        (string_literal
+          (string_literal_fragment)))
+      (enum_value
+        (identifier)
+        (raw_string_literal))
+      (enum_value
+        (identifier)
+        (code_literal
+          (code_literal_fragment)))
+      (enum_value
+        (identifier)
+        (raw_code_literal))
+      (enum_value
+        (identifier)
+        (rune_literal
+          (escape_sequence))))))
+
+================================================================================
+union
+================================================================================
+
+integer :: union { 
+    i8, 
+    i16, 
+    i32, 
+    i64, 
+    i128 
+};
+
+text :: union {
+    rune,
+    string,
+    code
+};
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (constant_definition
+    (identifier)
+    (union_literal
+      (signed_int_t)
+      (signed_int_t)
+      (signed_int_t)
+      (signed_int_t)
+      (signed_int_t)))
+  (constant_definition
+    (identifier)
+    (union_literal
+      (rune_t)
+      (string_t)
+      (code_t))))
+
+================================================================================
+concept
+================================================================================
+
+signed_integer :: concept[
+    I: #number, 
+    Precision: ?[type]
+] {
+    requires calc { I(-1) < I(1) };
+    Precision ?? calc { I.size >= Precision.size };
+};
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (constant_definition
+    (identifier)
+    (concept_literal
+      (identifier)
+      (applied_concept)
+      (parameter
+        (identifier)
+        (option
+          (type_t)))
+      (block
+        (requires_statement
+          (mathexpr))
+        (optional_statement
+          (identifier)
+          (mathexpr))))))

@@ -1,0 +1,130 @@
+================================================================================
+function
+================================================================================
+
+_ :: () => {}
+_ :: () -> i32 {}
+
+main :: (args: $[string]) -> i32 {
+    k :: 0;
+    return k;
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block))
+  (function_definition
+    (identifier)
+    (signed_int_t)
+    (block))
+  (function_definition
+    (identifier)
+    (parameter
+      (identifier)
+      (array_t
+        (string_t)))
+    (signed_int_t)
+    (block
+      (constant_definition
+        (identifier)
+        (integer_literal))
+      (return_statement
+        (identifier)))))
+
+================================================================================
+prototype
+================================================================================
+
+fn :: () => {
+    f1 : function();
+    f2 : function(i32);
+    f3 : function() -> i32;
+    f4 : function(i32, u32, f32) -> i32;
+    f5 : function(i: i32, u: u32);
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_definition
+    (identifier)
+    (block
+      (variable_declaration
+        (identifier)
+        (prototype))
+      (variable_declaration
+        (identifier)
+        (prototype
+          (prototype_parameter
+            (signed_int_t))))
+      (variable_declaration
+        (identifier)
+        (prototype
+          (signed_int_t)))
+      (variable_declaration
+        (identifier)
+        (prototype
+          (prototype_parameter
+            (signed_int_t))
+          (prototype_parameter
+            (unsigned_int_t))
+          (prototype_parameter
+            (float_t))
+          (signed_int_t)))
+      (variable_declaration
+        (identifier)
+        (prototype
+          (prototype_parameter
+            (identifier)
+            (signed_int_t))
+          (prototype_parameter
+            (identifier)
+            (unsigned_int_t)))))))
+
+================================================================================
+lambda
+================================================================================
+
+l1 :: lambda() => {
+    return none;
+};
+
+l2 :: lambda() -> i32 {
+    return 0;
+};
+
+l3 :: lambda(i: i32, s: string) => {
+    return none;
+};
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (constant_definition
+    (identifier)
+    (lambda
+      (block
+        (return_statement
+          (none_t)))))
+  (constant_definition
+    (identifier)
+    (lambda
+      (signed_int_t)
+      (block
+        (return_statement
+          (integer_literal)))))
+  (constant_definition
+    (identifier)
+    (lambda
+      (parameter
+        (identifier)
+        (signed_int_t))
+      (parameter
+        (identifier)
+        (string_t))
+      (block
+        (return_statement
+          (none_t))))))

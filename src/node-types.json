@@ -1,0 +1,8801 @@
+[
+  {
+    "type": "access",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "applied_concept",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "argument",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "array_t",
+    "named": true,
+    "fields": {
+      "size": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "integer_literal",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "assert_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignment",
+    "named": true,
+    "fields": {
+      "reference": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "reference_operator",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "async_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attribute_attachment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute_expression",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attribute_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "await_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "binary_expression",
+    "named": true,
+    "fields": {
+      "left": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "!=",
+            "named": false
+          },
+          {
+            "type": "%",
+            "named": false
+          },
+          {
+            "type": "*",
+            "named": false
+          },
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "/",
+            "named": false
+          },
+          {
+            "type": "<",
+            "named": false
+          },
+          {
+            "type": "<=",
+            "named": false
+          },
+          {
+            "type": "<=>",
+            "named": false
+          },
+          {
+            "type": "==",
+            "named": false
+          },
+          {
+            "type": ">",
+            "named": false
+          },
+          {
+            "type": ">=",
+            "named": false
+          },
+          {
+            "type": "and",
+            "named": false
+          },
+          {
+            "type": "as",
+            "named": false
+          },
+          {
+            "type": "is",
+            "named": false
+          },
+          {
+            "type": "or",
+            "named": false
+          }
+        ]
+      },
+      "right": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "assert_statement",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "async_statement",
+          "named": true
+        },
+        {
+          "type": "await_statement",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "constant_definition",
+          "named": true
+        },
+        {
+          "type": "continue_statement",
+          "named": true
+        },
+        {
+          "type": "defer_statement",
+          "named": true
+        },
+        {
+          "type": "empty_statement",
+          "named": true
+        },
+        {
+          "type": "ensures_statement",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "expected_statement",
+          "named": true
+        },
+        {
+          "type": "expects_statement",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "for_statement",
+          "named": true
+        },
+        {
+          "type": "foreach_statement",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "optional_statement",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "requires_statement",
+          "named": true
+        },
+        {
+          "type": "return_statement",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        },
+        {
+          "type": "variable_declaration",
+          "named": true
+        },
+        {
+          "type": "variable_definition",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "boolean_literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "false",
+          "named": true
+        },
+        {
+          "type": "true",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "break_statement",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "call",
+    "named": true,
+    "fields": {
+      "callable": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "argument",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_literal_fragment",
+          "named": true
+        },
+        {
+          "type": "escape_sequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "concept_literal",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "concept": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "applied_concept",
+            "named": true
+          }
+        ]
+      },
+      "typename": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "constant_definition",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "continue_statement",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "defer_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "empty_statement",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "ensures_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enum_literal",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "enum_value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enum_value",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "expectation",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expected_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "expectation": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "expects_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "for_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "deferred_action": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "foreach_statement",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "iterator": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "iterator",
+            "named": true
+          }
+        ]
+      },
+      "range": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "function_definition",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "return_type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "identifier",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "if_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "if_statement",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "consequence": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "import_statement",
+    "named": true,
+    "fields": {
+      "alias": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "dot_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "iterator",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "lambda",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "return_type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "load_statement",
+    "named": true,
+    "fields": {
+      "path": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "sc_dot_path",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "map",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "mapping",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "map_t",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "mapping",
+    "named": true,
+    "fields": {
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "mathexpr",
+    "named": true,
+    "fields": {
+      "return_type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "option",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "optional_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "parameter",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "default_value": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "parenthesis_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "prototype",
+    "named": true,
+    "fields": {
+      "return_type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "prototype_parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "prototype_parameter",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "reference",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "reference_operator",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "requires_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parameter",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "return_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rune_literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "escape_sequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {
+      "doc": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "doc_string_literal",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "constant_definition",
+          "named": true
+        },
+        {
+          "type": "function_definition",
+          "named": true
+        },
+        {
+          "type": "import_statement",
+          "named": true
+        },
+        {
+          "type": "load_statement",
+          "named": true
+        },
+        {
+          "type": "top_level_if_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string_literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "escape_sequence",
+          "named": true
+        },
+        {
+          "type": "string_literal_fragment",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "struct_literal",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "constant_definition",
+          "named": true
+        },
+        {
+          "type": "variable_declaration",
+          "named": true
+        },
+        {
+          "type": "variable_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "top_level_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "access",
+          "named": true
+        },
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "assert_statement",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "async_statement",
+          "named": true
+        },
+        {
+          "type": "await_statement",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "code_literal",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "concept_literal",
+          "named": true
+        },
+        {
+          "type": "constant_definition",
+          "named": true
+        },
+        {
+          "type": "continue_statement",
+          "named": true
+        },
+        {
+          "type": "defer_statement",
+          "named": true
+        },
+        {
+          "type": "empty_statement",
+          "named": true
+        },
+        {
+          "type": "ensures_statement",
+          "named": true
+        },
+        {
+          "type": "enum_literal",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "expected_statement",
+          "named": true
+        },
+        {
+          "type": "expects_statement",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "for_statement",
+          "named": true
+        },
+        {
+          "type": "foreach_statement",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "if_statement",
+          "named": true
+        },
+        {
+          "type": "import_statement",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "load_statement",
+          "named": true
+        },
+        {
+          "type": "map",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "mathexpr",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "optional_statement",
+          "named": true
+        },
+        {
+          "type": "parenthesis_expression",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "raw_code_literal",
+          "named": true
+        },
+        {
+          "type": "raw_string_literal",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "requires_statement",
+          "named": true
+        },
+        {
+          "type": "return_statement",
+          "named": true
+        },
+        {
+          "type": "rune_literal",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "struct_literal",
+          "named": true
+        },
+        {
+          "type": "top_level_if_statement",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "union_literal",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        },
+        {
+          "type": "variable_declaration",
+          "named": true
+        },
+        {
+          "type": "variable_definition",
+          "named": true
+        },
+        {
+          "type": "while_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "top_level_if_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "top_level_block",
+            "named": true
+          },
+          {
+            "type": "top_level_if_statement",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "consequence": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "top_level_block",
+            "named": true
+          }
+        ]
+      },
+      "initializer": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "parameter",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "tuple_t",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unary_expression",
+    "named": true,
+    "fields": {
+      "operand": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "+",
+            "named": false
+          },
+          {
+            "type": "-",
+            "named": false
+          },
+          {
+            "type": "not",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "union_literal",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "array_t",
+          "named": true
+        },
+        {
+          "type": "bool_t",
+          "named": true
+        },
+        {
+          "type": "bytes_t",
+          "named": true
+        },
+        {
+          "type": "code_t",
+          "named": true
+        },
+        {
+          "type": "expectation",
+          "named": true
+        },
+        {
+          "type": "float_t",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "map_t",
+          "named": true
+        },
+        {
+          "type": "none_t",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prototype",
+          "named": true
+        },
+        {
+          "type": "reference",
+          "named": true
+        },
+        {
+          "type": "rune_t",
+          "named": true
+        },
+        {
+          "type": "signed_int_t",
+          "named": true
+        },
+        {
+          "type": "string_t",
+          "named": true
+        },
+        {
+          "type": "tuple_t",
+          "named": true
+        },
+        {
+          "type": "type_t",
+          "named": true
+        },
+        {
+          "type": "unsigned_int_t",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable_declaration",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "variable_definition",
+    "named": true,
+    "fields": {
+      "attr": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "attribute_attachment",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "while_statement",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "access",
+            "named": true
+          },
+          {
+            "type": "array_t",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "bool_t",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "bytes_t",
+            "named": true
+          },
+          {
+            "type": "call",
+            "named": true
+          },
+          {
+            "type": "code_literal",
+            "named": true
+          },
+          {
+            "type": "code_t",
+            "named": true
+          },
+          {
+            "type": "concept_literal",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "expectation",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "float_t",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "list",
+            "named": true
+          },
+          {
+            "type": "map",
+            "named": true
+          },
+          {
+            "type": "map_t",
+            "named": true
+          },
+          {
+            "type": "mathexpr",
+            "named": true
+          },
+          {
+            "type": "none_t",
+            "named": true
+          },
+          {
+            "type": "option",
+            "named": true
+          },
+          {
+            "type": "parenthesis_expression",
+            "named": true
+          },
+          {
+            "type": "prototype",
+            "named": true
+          },
+          {
+            "type": "raw_code_literal",
+            "named": true
+          },
+          {
+            "type": "raw_string_literal",
+            "named": true
+          },
+          {
+            "type": "reference",
+            "named": true
+          },
+          {
+            "type": "rune_literal",
+            "named": true
+          },
+          {
+            "type": "rune_t",
+            "named": true
+          },
+          {
+            "type": "signed_int_t",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "string_t",
+            "named": true
+          },
+          {
+            "type": "struct_literal",
+            "named": true
+          },
+          {
+            "type": "tuple_t",
+            "named": true
+          },
+          {
+            "type": "type_t",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "union_literal",
+            "named": true
+          },
+          {
+            "type": "unsigned_int_t",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "parameter",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "!!",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "![",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "#if",
+    "named": false
+  },
+  {
+    "type": "#import",
+    "named": false
+  },
+  {
+    "type": "#load",
+    "named": false
+  },
+  {
+    "type": "$(",
+    "named": false
+  },
+  {
+    "type": "$[",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "&(",
+    "named": false
+  },
+  {
+    "type": "&[",
+    "named": false
+  },
+  {
+    "type": "'",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "::",
+    "named": false
+  },
+  {
+    "type": ":=",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "<=>",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": "=>",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": "??",
+    "named": false
+  },
+  {
+    "type": "?[",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "@(",
+    "named": false
+  },
+  {
+    "type": "@[",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "`",
+    "named": false
+  },
+  {
+    "type": "and",
+    "named": false
+  },
+  {
+    "type": "as",
+    "named": false
+  },
+  {
+    "type": "assert",
+    "named": false
+  },
+  {
+    "type": "async",
+    "named": false
+  },
+  {
+    "type": "await",
+    "named": false
+  },
+  {
+    "type": "bool_t",
+    "named": true
+  },
+  {
+    "type": "break",
+    "named": false
+  },
+  {
+    "type": "bytes_t",
+    "named": true
+  },
+  {
+    "type": "calc",
+    "named": false
+  },
+  {
+    "type": "code_literal_fragment",
+    "named": true
+  },
+  {
+    "type": "code_t",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "concept",
+    "named": false
+  },
+  {
+    "type": "continue",
+    "named": false
+  },
+  {
+    "type": "defer",
+    "named": false
+  },
+  {
+    "type": "doc_string_literal",
+    "named": true
+  },
+  {
+    "type": "dot_path",
+    "named": true
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "ensures",
+    "named": false
+  },
+  {
+    "type": "enum",
+    "named": false
+  },
+  {
+    "type": "escape_sequence",
+    "named": true
+  },
+  {
+    "type": "expects",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": true
+  },
+  {
+    "type": "float_literal",
+    "named": true
+  },
+  {
+    "type": "float_t",
+    "named": true
+  },
+  {
+    "type": "for",
+    "named": false
+  },
+  {
+    "type": "foreach",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "integer_literal",
+    "named": true
+  },
+  {
+    "type": "is",
+    "named": false
+  },
+  {
+    "type": "lambda",
+    "named": false
+  },
+  {
+    "type": "none_t",
+    "named": true
+  },
+  {
+    "type": "not",
+    "named": false
+  },
+  {
+    "type": "or",
+    "named": false
+  },
+  {
+    "type": "raw_code_literal",
+    "named": true
+  },
+  {
+    "type": "raw_string_literal",
+    "named": true
+  },
+  {
+    "type": "requires",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "rune_t",
+    "named": true
+  },
+  {
+    "type": "sc_dot_path",
+    "named": true
+  },
+  {
+    "type": "signed_int_t",
+    "named": true
+  },
+  {
+    "type": "string_literal_fragment",
+    "named": true
+  },
+  {
+    "type": "string_t",
+    "named": true
+  },
+  {
+    "type": "struct",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": true
+  },
+  {
+    "type": "type_t",
+    "named": true
+  },
+  {
+    "type": "union",
+    "named": false
+  },
+  {
+    "type": "unsigned_int_t",
+    "named": true
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  },
+  {
+    "type": "λ(",
+    "named": false
+  },
+  {
+    "type": "φ(",
+    "named": false
+  }
+]

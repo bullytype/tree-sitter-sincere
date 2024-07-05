@@ -1,0 +1,209 @@
+===
+boolean
+===
+
+_ :: true;
+_ :: false;
+
+---
+
+(source_file
+  (constant_definition
+    (identifier)
+    (boolean_literal
+      (true)))
+  (constant_definition
+    (identifier)
+    (boolean_literal
+      (false))))
+
+===
+integers
+===
+
+_ :: 1;
+_ :: 12i8;
+_ :: 13i16;
+_ :: 14i32;
+_ :: 15i64;
+_ :: 16i128;
+
+_ :: 22u8;
+_ :: 23u16;
+_ :: 24u32;
+_ :: 25u64;
+_ :: 26u128;
+
+_ :: 0xdeadbeef;
+
+_ :: 0x42EB1A17u8;
+_ :: 0x42EB1A18u16;
+_ :: 0x42EB1A19u32;
+_ :: 0x42EB1A1Au64;
+_ :: 0x42EB1A1Bu128;
+
+---
+
+(source_file
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal))
+  (constant_definition
+    (identifier)
+    (integer_literal)))
+
+===
+floats
+===
+
+_ :: 1.0;
+_ :: 4.2f32;
+_ :: 3.14f64;
+_ :: 3.1416f128;
+
+---
+
+(source_file
+  (constant_definition
+    (identifier)
+    (float_literal))
+  (constant_definition
+    (identifier)
+    (float_literal))
+  (constant_definition
+    (identifier)
+    (float_literal))
+  (constant_definition
+    (identifier)
+    (float_literal)))
+
+===
+rune
+===
+
+_ :: '\0';
+_ :: ' ';
+_ :: '1';
+_ :: '\x7f';
+_ :: '\ua1b2';
+_ :: '\U1a2b3c4d';
+
+---
+
+(source_file
+  (constant_definition
+    (identifier)
+    (rune_literal
+      (escape_sequence)))
+  (constant_definition
+    (identifier)
+    (rune_literal))
+  (constant_definition
+    (identifier)
+    (rune_literal))
+  (constant_definition
+    (identifier)
+    (rune_literal
+      (escape_sequence)))
+  (constant_definition
+    (identifier)
+    (rune_literal
+      (escape_sequence)))
+  (constant_definition
+    (identifier)
+    (rune_literal
+      (escape_sequence))))
+
+===
+code
+===
+
+_ :: `c i++;`;
+_ :: `cpp [&]([[maybe_unused]] auto&& v) noexcept -> void {}`;
+
+_ :: `test \x0f\u0f0f\U0f0f0f0f`;
+
+_ :: ```json
+{
+    "int": 1, 
+    "str": "val",
+    "arr": [],
+    "obj": {}
+}
+```;
+
+_ :: ```xml
+<root>
+    <node attr="val">text</node>
+</root>
+```;
+
+---
+
+(source_file
+  (constant_definition
+    (identifier)
+    (code_literal
+      (code_literal_fragment)))
+  (constant_definition
+    (identifier)
+    (code_literal
+      (code_literal_fragment)))
+  (constant_definition
+    (identifier)
+    (code_literal
+      (code_literal_fragment)
+      (escape_sequence)
+      (escape_sequence)
+      (escape_sequence)))
+  (constant_definition
+    (identifier)
+    (raw_code_literal))
+  (constant_definition
+    (identifier)
+    (raw_code_literal)))
